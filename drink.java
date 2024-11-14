@@ -2,15 +2,15 @@ package till_system;
 
 import java.util.ArrayList;
 
-public class drink {
+public class Drink {
 	
 	private String name;
 	private float price;
 	private String size;
-	private ArrayList<add_ons> add_ons = new ArrayList<add_ons>();
+	private ArrayList<Add_ons> add_ons = new ArrayList<Add_ons>();
 
 	
-	public drink(String name, float price, String size) {
+	public Drink(String name, float price, String size) {
 		this.name = name;
 		this.price = price;
 		this.size = size;
@@ -32,7 +32,7 @@ public class drink {
 	}
 
 
-	public ArrayList<add_ons> getAdd_ons() {
+	public ArrayList<Add_ons> getAdd_ons() {
 		return add_ons;
 	}
 

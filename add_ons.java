@@ -1,13 +1,13 @@
 package till_system;
 
-public class add_ons {
+public class Add_ons {
 	
 	private String name;
 	private float price;
 	private String type;
 	
 	
-	public add_ons(String name, float price, String type) {
+	public Add_ons(String name, float price, String type) {
 		this.name = name;
 		this.price = price;
 		this.type = type;
